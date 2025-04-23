@@ -78,7 +78,9 @@ export default function Services() {
 
         <div className="mt-10">
           <a
-            href="#quote"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/541138997032"
             className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-md transition duration-300"
           >
             Consultá Gratis

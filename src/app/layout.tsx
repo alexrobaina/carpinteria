@@ -34,7 +34,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="bg-gray-100">
         <Navbar />
-        <div className="w-full max-w-7xl mx-auto">{children}</div>
+        <div className="w-full max-w-7xl">{children}</div>
       </body>
     </html>
   )

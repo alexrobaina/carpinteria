@@ -63,7 +63,9 @@ export default function Portfolio() {
 
         <div className="text-center mt-12">
           <a
-            href="#contacto"
+            href="https://wa.me/541138997032"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-md transition duration-300"
           >
             Consultá por tu Proyecto
