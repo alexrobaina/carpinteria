@@ -14,17 +14,16 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contacto</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>📍 Buenos Aires, Argentina</li>
-              <li>📞 +54 11 1234-5678</li>
-              <li>✉️ info@carpinteriavanille.com</li>
+              <li>📍 Mendoza, Godoy Cruz, Argentina</li>
+              <li>📞 +54 11 3899-70-32</li>
+              <li>✉️ alexrobainaph@gmail.com</li>
             </ul>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Horarios</h3>
             <ul className="space-y-2 text-gray-400">
               <li>Lunes a Viernes: 9:00 - 18:00</li>
-              <li>Sábados: 9:00 - 13:00</li>
-              <li>Domingos: Cerrado</li>
+              <li>Sabados y Domingos: Cerrado</li>
             </ul>
           </div>
         </div>

@@ -3,8 +3,8 @@ import logo from '../../../public/assets/logo.png'
 
 export default function Navbar() {
   return (
-    <nav className=" shadow-md px-8 h-[60px]">
-      <div className="bg-gray-100 px-6 flex justify-between items-center">
+    <nav className="bg-gray-100 px-2 sm:px-6 flex justify-between items-center">
+      <div className="bg-gray-100 flex justify-between items-center">
         <Image
           src={logo}
           alt="Carpintería Alex Robaina"

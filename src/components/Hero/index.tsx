@@ -5,7 +5,7 @@ import hero from '../../../public/assets/images/comoda-1.png'
 
 export default function Hero() {
   return (
-    <section className="bg-gray-100 py-20">
+    <section className="bg-gray-100 py-12 sm:py-16">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center gap-10">
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 leading-tight">

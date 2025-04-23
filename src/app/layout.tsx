@@ -32,11 +32,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="bg-gray-100">
         <Navbar />
-        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {children}
-        </div>
+        <div className="w-full max-w-7xl mx-auto">{children}</div>
       </body>
     </html>
   )
