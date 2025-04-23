@@ -1,5 +1,3 @@
-'use client'
-
 export default function Solutions() {
   return (
     <section className="bg-gray-50 py-20">
