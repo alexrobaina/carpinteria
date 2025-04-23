@@ -1,6 +1,6 @@
 export default function Solutions() {
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="bg-gray-50 py-20 w-full">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-12">
           Nuestro Compromiso

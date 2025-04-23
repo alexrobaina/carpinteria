@@ -1,3 +1,4 @@
+'use client'
 import Hero from '@/components/Hero'
 import Problem from '@/components/Problem'
 import Solutions from '@/components/Solutions'

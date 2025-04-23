@@ -2,7 +2,7 @@
 
 export default function Problem() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-20 w-full">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-8">
           ¿Por qué elegirnos?

@@ -27,8 +27,8 @@ export default function Portfolio() {
   ]
 
   return (
-    <section id="portfolio" className="bg-white py-20">
-      <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="portfolio" className="bg-white w-full">
+      <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-4">
           Nuestros Trabajos
         </h2>

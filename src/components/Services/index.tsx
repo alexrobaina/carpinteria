@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <section id="services" className="bg-gray-100 py-20">
+    <section id="services" className="bg-gray-100 py-20 w-full">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
           Nuestras Especialidades
