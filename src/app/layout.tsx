@@ -1,0 +1,43 @@
+import Navbar from '@/components/Navbar'
+import './globals.css'
+
+interface RootLayoutProps {
+  children: React.ReactNode
+  params: Promise<{ locale: string }>
+}
+
+export async function generateMetadata() {
+  // Define metadata based on locale
+  return {
+    title: 'Carpintería Vanille',
+    description: 'Carpintería Vanille',
+    keywords: 'Carpintería Vanille',
+    openGraph: {
+      title: 'Carpintería Vanille',
+      description: 'Carpintería Vanille',
+      type: 'website',
+      images: '/chatAI.png', // Ensure this path is correct
+    },
+    twitter: {
+      description: 'Carpintería Vanille',
+    },
+  }
+}
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: RootLayoutProps) {
+  const { locale } = await params
+
+  return (
+    <html lang={locale}>
+      <body>
+        <Navbar />
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {children}
+        </div>
+      </body>
+    </html>
+  )
+}
