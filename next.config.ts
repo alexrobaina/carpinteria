@@ -1,7 +1,7 @@
 // next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  darkMode: false,
+  darkMode: 'class',
 }
 
 export default nextConfig

@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import Head from 'next/head'
+import Providers from './providers'
 
 interface RootLayoutProps {
   children: React.ReactNode
@@ -32,16 +33,23 @@ export default async function LocaleLayout({
   const { locale } = await params
 
   return (
-    <html lang={locale}>
+    <html
+      lang={locale}
+      className="light"
+      data-theme="light"
+      suppressHydrationWarning
+    >
       <Head>
         <meta name="color-scheme" content="light only" />
         <meta name="supported-color-schemes" content="light" />
       </Head>
       <body className="bg-gray-100 flex justify-center items-center flex-col">
-        <Navbar />
-        <div className="w-full flex flex-col items-center bg-gray-100 text-gray-800">
-          {children}
-        </div>
+        <Providers>
+          <Navbar />
+          <main className="w-full flex flex-col items-center bg-gray-100 text-gray-800">
+            {children}
+          </main>
+        </Providers>
       </body>
     </html>
   )
