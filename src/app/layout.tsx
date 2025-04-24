@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
+import Head from 'next/head'
 
 interface RootLayoutProps {
   children: React.ReactNode
@@ -10,16 +11,16 @@ export async function generateMetadata() {
   // Define metadata based on locale
   return {
     title: 'Carpintería Vanille',
-    description: 'Carpintería Vanille',
-    keywords: 'Carpintería Vanille',
+    description: 'Carpintería Robaina',
+    keywords: 'Carpintería Robaina',
     openGraph: {
-      title: 'Carpintería Vanille',
-      description: 'Carpintería Vanille',
+      title: 'Carpintería Robaina',
+      description: 'Carpintería Robaina',
       type: 'website',
-      images: '/chatAI.png', // Ensure this path is correct
+      images: '/assets/images/mesasDeLuz.png', // Ensure this path is correct
     },
     twitter: {
-      description: 'Carpintería Vanille',
+      description: 'Carpintería Robaina',
     },
   }
 }
@@ -32,6 +33,10 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <Head>
+        <meta name="color-scheme" content="light only" />
+        <meta name="supported-color-schemes" content="light" />
+      </Head>
       <body className="bg-gray-100 flex justify-center items-center flex-col">
         <Navbar />
         <div className="w-full flex flex-col items-center bg-gray-100 text-gray-800">
