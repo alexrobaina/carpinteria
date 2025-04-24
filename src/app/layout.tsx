@@ -34,7 +34,9 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="bg-gray-100 flex justify-center items-center flex-col">
         <Navbar />
-        <div className="w-full flex flex-col items-center">{children}</div>
+        <div className="w-full flex flex-col items-center bg-gray-100 text-gray-800">
+          {children}
+        </div>
       </body>
     </html>
   )
