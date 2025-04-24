@@ -12,7 +12,7 @@ export default function Navbar() {
           height={80}
         />
         <div className="text-lg font-bold text-gray-800">
-          Carpintería Alex Robaina
+          Carpintería Robaina
         </div>
       </div>
     </nav>
