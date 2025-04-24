@@ -6,12 +6,11 @@ export default function Services() {
           Nuestras Especialidades
         </h2>
         <p className="mt-4 text-lg text-gray-600 max-w-xl mx-auto">
-          Desde interiores personalizados hasta construcciones exteriores,
-          ofrecemos servicios de carpintería de alta calidad adaptados a tu
-          proyecto.
+          Diseño e instalación de muebles de interior alta calidad, para tu
+          hogar.
         </p>
 
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-xl font-semibold text-amber-600">
@@ -28,8 +27,8 @@ export default function Services() {
               </svg>
             </div>
             <p className="text-gray-600">
-              Mesas artesanales, estanterías y piezas únicas que reflejan tu
-              estilo y espacio.
+              Mesas de luz, estanterías y piezas únicas que reflejan tu estilo y
+              espacio.
             </p>
           </div>
 
@@ -54,10 +53,10 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+          {/* <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-xl font-semibold text-amber-600">
-                Deck y Exteriores
+                
               </h3>
               <svg
                 className="w-6 h-6 text-amber-500"
@@ -73,7 +72,7 @@ export default function Services() {
               Construcciones exteriores duraderas: decks, pérgolas y cercos con
               artesanía que perdura.
             </p>
-          </div>
+          </div> */}
         </div>
 
         <div className="mt-10">

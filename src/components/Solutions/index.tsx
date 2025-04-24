@@ -11,8 +11,8 @@ export default function Solutions() {
               Calidad Superior
             </h3>
             <p className="text-gray-600">
-              Utilizamos los mejores materiales y técnicas artesanales para
-              garantizar durabilidad y belleza en cada pieza.
+              Utilizamos los mejores materiales y técnicas para garantizar
+              durabilidad y belleza en cada pieza.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">

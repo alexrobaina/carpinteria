@@ -1,28 +1,32 @@
 'use client'
 
 import Image from 'next/image'
+import cocina from '../../../public/assets/images/cocina.jpeg'
+import vestidor from '../../../public/assets/images/armario.png'
+import biblioteca from '../../../public/assets/images/biblioteca.png'
+import mesaDeLuz from '../../../public/assets/images/mesaDeLuz-1.png'
 
 export default function Portfolio() {
   const projects = [
     {
       title: 'Muebles de Cocina',
       description: 'Diseño e instalación completa de cocina moderna',
-      image: '/cocina-moderna.jpg',
+      image: cocina,
     },
     {
       title: 'Vestidor',
       description: 'Vestidor personalizado con acabados premium',
-      image: '/vestidor.jpg',
+      image: vestidor,
     },
     {
       title: 'Biblioteca',
       description: 'Biblioteca empotrada con detalles artesanales',
-      image: '/biblioteca.jpg',
+      image: biblioteca,
     },
     {
-      title: 'Mesa Comedor',
-      description: 'Mesa de comedor de madera maciza a medida',
-      image: '/mesa-comedor.jpg',
+      title: 'Mesas de Luz',
+      description: 'Mesas de luz con diseño moderno',
+      image: mesaDeLuz,
     },
   ]
 
@@ -37,18 +41,19 @@ export default function Portfolio() {
           tu próximo proyecto.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-50 rounded-lg overflow-hidden shadow-md"
+              className="bg-gray-50 rounded-lg h-[500px] overflow-hidden shadow-md"
             >
-              <div className="relative h-64">
+              <div className="relative">
                 <Image
+                  width={500}
+                  height={500}
                   src={project.image}
                   alt={project.title}
-                  fill
-                  className="object-cover"
+                  // className="object-cover"
                 />
               </div>
               <div className="p-6">

@@ -13,8 +13,8 @@ export default function Hero() {
             <br className="hidden sm:inline" /> que Da Vida a tus Ideas
           </h1>
           <p className="mt-4 text-lg text-gray-600">
-            Trabajo artesanal de calidad, carpintería personalizada y servicio
-            puntual para propietarios y contratistas.
+            Trabajos de calidad, carpintería personalizada y servicio puntual
+            para propietarios y contratistas.
           </p>
           <div className="mt-6">
             <a

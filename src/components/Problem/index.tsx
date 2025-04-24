@@ -9,11 +9,12 @@ export default function Problem() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-gray-50 p-6 rounded-lg">
-            <div className="text-amber-600 text-4xl font-bold mb-4">20+</div>
-            <h3 className="text-xl font-semibold mb-2">Años de Experiencia</h3>
+            <div className="text-amber-600 text-4xl font-bold mb-4">100%</div>
+            <h3 className="text-xl font-semibold mb-2">
+              Atención personalizada
+            </h3>
             <p className="text-gray-600">
-              Más de dos décadas creando muebles de calidad para hogares
-              argentinos.
+              Te ayudamos a elegir el mejor material y color para tu proyecto.
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -26,12 +27,11 @@ export default function Problem() {
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
-            <div className="text-amber-600 text-4xl font-bold mb-4">500+</div>
-            <h3 className="text-xl font-semibold mb-2">
-              Proyectos Completados
-            </h3>
+            <div className="text-amber-600 text-4xl font-bold mb-4">100%</div>
+            <h3 className="text-xl font-semibold mb-2">Diseño e instalación</h3>
             <p className="text-gray-600">
-              Cientos de clientes satisfechos avalan nuestro trabajo.
+              Te presentaremos propuestas de diseño y te ayudaremos con la
+              instalación del proyecto.
             </p>
           </div>
         </div>
