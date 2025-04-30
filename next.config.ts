@@ -5,10 +5,10 @@ const withSitemap = require('next-sitemap');
 const nextConfig = {
   darkMode: 'class',
   reactStrictMode: true,
-  ...withSitemap
   images: {
     domains: ['arcarpinteria.vercel.app'],
   },
+  ...withSitemap,
 }
 
 export default nextConfig
