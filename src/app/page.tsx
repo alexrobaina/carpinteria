@@ -5,7 +5,7 @@ import Solutions from '@/components/Solutions'
 import Portfolio from '@/components/portfolio'
 import Services from '@/components/Services'
 // import Testimonials from '@/components/Testimonials'
-  import { Head } from 'next/document'
+import Head from 'next/head'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
         {/* Open Graph */}
         <meta property="og:title" content="Carpintería Robaina | Muebles a medida" />
         <meta property="og:description" content="Diseño de muebles funcionales en madera. Calidad artesanal." />
-        <meta property="og:image" content="https://arcarpinteria.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomoda-1.1116fc6a.png&w=1080&q=75" />
+        <meta property="og:image" content={"https://arcarpinteria.vercel.app/assets/images/comoda-1.png"} />
         <meta property="og:url" content="https://arcarpinteria.vercel.app/" />
         <meta property="og:type" content="website" />
 
@@ -30,7 +30,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Carpintería Robaina | Muebles a medida" />
         <meta name="twitter:description" content="Diseño de muebles funcionales en madera. Calidad artesanal." />
-        <meta name="twitter:image" content="https://arcarpinteria.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomoda-1.1116fc6a.png&w=1080&q=75" />
+        <meta name="twitter:image" content="https://arcarpinteria.vercel.app/assets/images/comoda-1.png" />
       </Head>
 
       <main>
